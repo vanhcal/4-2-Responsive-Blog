@@ -7,20 +7,16 @@
 */
 
 module.exports = function(grunt) {
-
+  
   grunt.initConfig({
     responsive_images: {
       dev: {
         options: {
-          engine: 'im',
+          engine: 'gm',
           sizes: [{
-            /*
-            Change these:
-            
-            width: ,
-            suffix: ,
-            quality:
-            */
+            width: 400
+          }, {
+            width: 800
           }]
         },
 
