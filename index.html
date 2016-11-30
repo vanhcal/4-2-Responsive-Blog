@@ -19,6 +19,7 @@
   <title>My responsive blog: picture story</title>
 
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="http://weloveinconfonts.com/api/?family=zocial"/>
 
 </head>
 
@@ -36,24 +37,59 @@
   <h1>My responsive blog</h1>
 
   <article>
-
-    <img src="images/still_life-1600_large_2x.jpg">
+  	<picture>
+		<source
+			media="(min-width: 501px)"
+			srcset="images/still_life-large_1x.jpg 1x, images/still_life-large_2x.jpg 2x">
+		<source 
+			media="(max-width: 500px)"
+			srcset="images/still_life-medium_1x.jpg 1x, images/still_life-medium_2x.jpg 2x">
+		<img src="images/still_life-1000.jpg"
+			alt="A still life of fruit and flowers.">
+	</picture>
 
     <h2>My story</h2>
     
     <p>I love cheese, especially manchego swiss. &#9786; Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
     
-    <img src="images/horses-1600_large_2x.jpg">
+    <picture>
+  		<source
+  			media="(min-width: 501px)"
+  			srcset="images/horses-large_1x.jpg 1x, images/horses-large_2x.jpg 2x">
+  		<source 
+  			media="(max-width: 500px)"
+  			srcset="images/horses-medium_1x.jpg 1x, images/horses-medium_2x.jpg 2x">
+  		<img src="images/horses-1000.jpg"
+  			alt="Horses in a field.">
+	   </picture>
     
     <p>Bocconcini swiss cut the cheese. Manchego boursin smelly cheese cheesy grin squirty cheese mozzarella cheddar hard cheese. Manchego roquefort camembert de normandie cheese slices mascarpone cow cheesy feet airedale. Port-salut jarlsberg gouda port-salut port-salut cheese on toast.</p>
     
     <p>Manchego cheese strings hard cheese. Say cheese swiss cheese strings squirty cheese mozzarella feta the big cheese halloumi. Cheddar cheese and biscuits cut the cheese queso hard cheese red leicester parmesan st. agur blue cheese. Smelly cheese caerphilly hard cheese cream cheese cream cheese the big cheese feta squirty cheese. Babybel fromage edam lancashire.</p>
     
-    <img src="images/volt-1600_large_2x.jpg">
+    <picture>
+  		<source
+  			media="(min-width: 501px)"
+  			srcset="images/volt-large_1x.jpg 1x, images/volt-large_2x.jpg 2x">
+  		<source 
+  			media="(max-width: 500px)"
+  			srcset="images/volt-medium_1x.jpg 1x, images/volt-medium_2x.jpg 2x">
+  		<img src="images/volt-1000.jpg"
+  			alt="A sign that says Volt.">
+	   </picture>
     
     <p>Edam parmesan smelly cheese. Dolcelatte say cheese cheesy feet lancashire cow boursin stinking bishop brie. Stilton cheese strings say cheese pecorino cheeseburger fromage frais cauliflower cheese manchego. St. agur blue cheese ricotta stinking bishop queso camembert de normandie manchego cheese triangles fondue. Gouda.</p>
     
-    <img src="images/cockatoos-1600_large_2x.jpg">
+    <picture>
+      <source
+        media="(min-width: 501px)"
+        srcset="images/cockatoos-large_1x.jpg 1x, images/cockatoos-large_2x.jpg 2x">
+      <source 
+        media="(max-width: 500px)"
+        srcset="images/cockatoos-medium_1x.jpg 1x, images/cockatoos-medium_2x.jpg 2x">
+      <img src="images/cockatoos-1000.jpg"
+        alt="Two cockatoos sitting on a rail.">
+     </picture>
     
     <p>Babybel cream cheese cheese on toast. Brie fromage swiss cheese and biscuits hard cheese babybel bocconcini brie. Cheesy grin swiss cheese strings paneer lancashire cauliflower cheese cheese on toast caerphilly. Queso queso cheese and wine taleggio mascarpone cheeseburger.</p>
     
@@ -63,22 +99,55 @@
     
     <p>St. agur blue cheese cheese and wine say cheese. Goat cottage cheese brie cheese triangles say cheese when the cheese comes out everybody's happy stinking bishop dolcelatte. Parmesan say cheese cream cheese goat cauliflower cheese st. agur blue cheese cheese slices hard cheese. Cheese triangles.</p>
     
-    <figure>
-    	<img src="images/postcard-1600_large_2x.jpg">
-    	<figcaption>Check out this postcard!</figcaption>
-    </figure>
+    <picture>
+      <source
+        media="(min-width: 501px)"
+        srcset="images/postcard-large_1x.jpg 1x, images/postcard-large_2x.jpg 2x">
+      <source 
+        media="(max-width: 500px)"
+        srcset="images/postcard-medium_1x.jpg 1x, images/postcard-medium_2x.jpg 2x">
+      <img src="images/postcard-1000.jpg"
+        alt="An image of a postcard with unreadable curly writing.">
+     </picture>
     
     <p>Pecorino pepper jack cheesy feet. Smelly cheese cauliflower cheese fromage halloumi cream cheese who moved my cheese fromage fondue. Feta danish fontina cheesy grin mozzarella fromage cheesy grin airedale paneer. Cheddar halloumi cheese and biscuits jarlsberg cheese and biscuits cheese and biscuits squirty cheese.</p>
     
-    <img src="images/grasshopper-1600_large_2x.jpg">
+    <picture>
+      <source
+        media="(min-width: 501px)"
+        srcset="images/grasshopper-large_1x.jpg 1x, images/grasshopper-large_2x.jpg 2x">
+      <source 
+        media="(max-width: 500px)"
+        srcset="images/grasshopper-medium_1x.jpg 1x, images/grasshopper-medium_2x.jpg 2x">
+      <img src="images/grasshopper-1000.jpg"
+        alt="A picture of a grasshopper on a piece of cloth.">
+     </picture>
     
     <p>Babybel cream cheese cheese on toast. Brie fromage swiss cheese and biscuits hard cheese babybel bocconcini brie. Cheesy grin swiss cheese strings paneer lancashire cauliflower cheese cheese on toast caerphilly. Queso queso cheese and wine taleggio mascarpone cheeseburger.</p>
-    
-    <img src="images/sfo-1600_large_2x.jpg">
+
+    <picture>
+      <source
+        media="(min-width: 501px)"
+        srcset="images/sfo-large_1x.jpg 1x, images/sfo-large_2x.jpg 2x">
+      <source 
+        media="(max-width: 500px)"
+        srcset="images/sfo-medium_1x.jpg 1x, images/sfo-medium_2x.jpg 2x">
+      <img src="images/sfo-1000.jpg"
+        alt="An image of the ground from an airplane.">
+     </picture>
     
     <p>Say cheese swiss cheesy grin. Cheese on toast queso bocconcini cheeseburger fondue manchego smelly cheese port-salut. Cream cheese cheese and wine airedale cheeseburger chalk and cheese cauliflower cheese fondue smelly cheese. Queso manchego.</p>
     
-    <img src="images/rosella-1600_large_2x.jpg">
+    <picture>
+      <source
+        media="(min-width: 501px)"
+        srcset="images/rosella-large_1x.jpg 1x, images/rosella-large_2x.jpg 2x">
+      <source 
+        media="(max-width: 500px)"
+        srcset="images/rosella-medium_1x.jpg 1x, images/rosella-medium_2x.jpg 2x">
+      <img src="images/rosella-1000.jpg"
+        alt="An picture of a red and blue bird.">
+     </picture>
 
     <p>Paneer st. agur blue cheese bocconcini. The big cheese chalk and cheese cheese and biscuits cream cheese cheese triangles mascarpone everyone loves rubber cheese. Stinking bishop manchego the big cheese lancashire hard cheese the big cheese danish fontina squirty cheese. Cheesy feet croque monsieur boursin squirty cheese cheddar boursin boursin pepper jack. Squirty cheese halloumi camembert de normandie macaroni cheese.</p>
   
@@ -104,3 +173,4 @@
 
 </body>
 </html>
+

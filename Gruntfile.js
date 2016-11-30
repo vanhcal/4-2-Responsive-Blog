@@ -14,8 +14,28 @@ module.exports = function(grunt) {
         options: {
           engine: 'gm',
           sizes: [{
-            width: 1600,
-            suffix:'_large_2x',
+            width: 1000
+          }, {
+            name: 'medium',
+            width: 1000,
+            height: 500,
+            suffix:'_1x', 
+            quality: 30
+          }, {
+            name: 'medium',
+            width: 2000,
+            height: 500,
+            suffix: '_2x',
+            quality: 30
+          }, {
+            name: 'large',
+            width: 1000,
+            suffix: '_1x',
+            quality: 30
+          }, {
+            name: "large",
+            width: 2000,
+            suffix: "_2x",
             quality: 30
           }]
         },
